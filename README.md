@@ -1,32 +1,4 @@
 # P1_Probstat_F_5025201039
-
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@wahidabd 
-mail2418
-/
-P1_Probstat_B_5025201223
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-P1_Probstat_B_5025201223/README.md
-@mail2418
-mail2418 Update README.md
-Latest commit dc38937 11 hours ago
- History
- 1 contributor
-239 lines (208 sloc)  5.84 KB
    
 ## Nama-NRP
 | Nama             | NRP        |
