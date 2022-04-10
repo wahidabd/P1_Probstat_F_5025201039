@@ -218,7 +218,7 @@ paste("x2 adalah", x2)
 - Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: ```NRP_Nama_Probstat_{Nama Kelas}_DNhistogram```
 ``` R
 #6b
-h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201223_Muhammad Ismail_B_DNhistogram")
+h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201039_Abd. Wahid_F_DNhistogram")
 ```
 ![6b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/6.png)
 
