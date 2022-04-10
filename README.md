@@ -42,7 +42,7 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
        x = "Kegagalan sebelum sukses yang pertama (x)",
        y = "Peluang") 
 ```
-![1d](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/1.png)
+![1d](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/1.png)
 - Nilai rataan (μ) dan varian (σ²) dari distribusi Geometrik
 ``` R
 #1e
@@ -74,7 +74,7 @@ peluang <- dbinom(1:20, 20, 0.2)
 data = data.frame(y=c(peluang), x=c(1:20))
 barplot(data$y, names.arg=data$x, ylab="Peluang", xlab="Jumlah Pasien")
 ```
-![2b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/2.png)
+![2b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/2.png)
 
 - Nilai rataan (μ) dan varian (σ²) dari distribusi Binomial
 ``` R
@@ -105,7 +105,7 @@ peluang = dpois(banyak_bayi_lahir,mean_bayi_lahir)
 data = data.frame(y=c(peluang), x=c(1:365))
 barplot(data$y, names.arg=data$x, ylab="peluang", xlab="hari ke-", ylim=0:1)
 ```
-![3b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/3.png)
+![3b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/3.png)
 
 - bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 
@@ -137,7 +137,7 @@ random_data = 100
 output = rchisq(random_data, v)
 hist(output)
 ```
-![4b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/4.png)
+![4b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/4.png)
 
 - Nilai Rataan (μ) dan Varian (σ²) dari DistribusiChi-Square.
 ``` R
@@ -170,7 +170,7 @@ hist(rexp(1000))
 set.seed(1)
 hist(rexp(10000))
 ```
-![5b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/5.png)
+![5b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/5.png)
 
 - Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
 ``` R
@@ -220,7 +220,7 @@ paste("x2 adalah", x2)
 #6b
 h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201223_Muhammad Ismail_B_DNhistogram")
 ```
-![6b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/Main/capture/6.png)
+![6b](https://github.com/wahidabd/P1_Probstat_F_5025201039/blob/master/capture/6.png)
 
 -  Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ``` R
